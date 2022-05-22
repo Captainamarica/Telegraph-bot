@@ -15,15 +15,10 @@
 import os
 
 from vars import var
+
 from pyrogram import Client, idle
-from telegraph import upload_file
-import pyrogram
-from pyrogram import filters, Client
-from sample_config import Config
-from pyrogram.types import (
-    InlineQueryResultArticle, InputTextMessageContent,
-    InlineKeyboardMarkup, InlineKeyboardButton,
-    CallbackQuery, InlineQuery)
+
+
 
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 
