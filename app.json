@@ -12,19 +12,32 @@
     "repository": "https://github.com/DARKEMPIRESL/Telegra.ph-Uploader",
     "success_url": "https://telegram.dog/SLBotOfficial",
     "env": {
-        "TG_BOT_TOKEN": {
-            "description": "You Telegram Bot Token from @BotFather",
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Telegram User id of Owner",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis URL, Get it from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASS": {
+            "description": "Redis Password, Get it from redislabs.com",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash from my.telegram.org",
-            "value": ""
-        },
-        "APP_ID": {
-            "description": "Your API ID from my.telegram.org",
+            "description": "Your API_HASH from https://my.telegram.org/apps",
             "value": ""
         }
     },
+    
     "addons": [],
     "buildpacks": [
         {
