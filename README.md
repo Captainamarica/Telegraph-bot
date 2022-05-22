@@ -1,48 +1,112 @@
 # Telegra.ph-Uploader
-A Telegram Bot Written In Python To Upload Medias To telegra.ph   
 
-# DEPLOY
-YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
+> A star ⭐ from you means a lot to us !
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/)
+<p align="center"><a href="https://www.github.com/DARKEMPIRESL/Telegra.ph-Uploader"><img src="https://te.legra.ph/file/1395fa7ced5043e3a3dcf.jpg" width="5000"></a></p>
 
-# Local Machine
-Clone the repository
+Telegram bot to upload media to telegra.ph
 
-Install requirements: pip3 install -r requirements.txt
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-edit the sample_config.py wih your configs
+## Usage
 
-python3 bot.py
+### Deploy to Heroku
 
-Now send /start to you bot to see if it is running!
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARKEMPIRESL/Telegra.ph-Uploader)
 
+1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`.
+2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
+3. After deploying is complete, tap on "Manage App"
+4. Check the logs to see if your bot is ready!
 
-# Varibels
+### Local Deploying
 
-``TG_BOT_TOKEN : YOUR BOT TOKEN. GET IT FROM @BOTFATHER``
+1. Clone the repo
+   ```markdown
+   git clone https://github.com/DARKEMPIRESL/Telegra.ph-Uploader
+   ```
 
-``START_MESSAGE : YOUR TELEGRAM APP ID.``
+2. Edit `Config.py` and fill the needed variables
 
-``BOT_USER_NAME : YOUR TELEGRAM API HASH``
+3. Enter the directory
+   ```markdown
+   cd Telegra.ph-Uploader
+   ```
+5. Run the file
+   ```markdown
+   python3 main.py
+   ```
 
-## SUPPORT
+## Environment Variables
 
-For any type of help on deploy. Contact us on [Team SL Bots🇱🇰](https://t.me/SLBotOfficial).
+#### Mandatory Vars
 
-# Thanks To
-Thanks To [AlbertEinsteinTg](https://github.com/AlbertEinsteinTg) For Helping Me in Some Cases
+- `API_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
+- `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
+- `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
+- `OWNER_ID` - Your Telegram ID
+- `DATABASE_URL` - Will be automatically added by Heroku.
+  
+#### Optional Vars
 
-Thanks To Owners Of Libraries That Used In The Development Of This Repo
-# Licence
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+> Don't forget to add your bot in the chat you fill in MUST_JOIN.
 
-[Telegra.ph-Uploader](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader) is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
+- `MUST_JOIN` - Username/ID of your telegram channel/group.
 
-##
+#### Owner Special Command
 
-**Star this Repo if you Liked it ⭐⭐⭐**
+- `/stats` - Get Total Users and Chats using your bot.
+
+## Functions
+
+> More features soon, this is a minimal example :)
+
+Upload one of the below supported media type to Telegra.ph
+
+1) Image
+2) Video
+3) Sticker
+4) Gifs or Animation
+5) Videos
+6) Video Note
+7) Document (Video/Photo/Gif)
+
+## To-Do
+
+> That's on you mainly...
+
+## Stats
+
+[![GitHub forks](https://img.shields.io/github/forks/DARKEMPIRESL/Telegra.ph-Uploader.svg?style=social&label=Fork&maxAge=25920000)](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/network/) [![GitHub stars](https://img.shields.io/github/stars/DARKEMPIRESL/Telegra.ph-Uploader.svg?style=social&label=Star&maxAge=25920000)](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/DARKEMPIRESL/Telegra.ph-Uploader.svg?style=social&label=Watch&maxAge=25920000)](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/watchers/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/graphs/commit-activity)
+
+## License
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+## Contributing
+
+[![GitHub contributors](https://img.shields.io/github/contributors/DARKEMPIRESL/Telegra.ph-Uploader.svg)](https://github.com/DARKEMPIRESL/Telegra.ph-Uploader/graphs/contributors/)
+
+> Contributions are heartily accepted.
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+## Credits
+
+- [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
+- [𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊](https://t.me/ImDark_Empire) - ``Dev``
+
+## Support
+
+Channel :- [@Team SL Bots🇱🇰](https://t.me/SLBotOfficial)
+
+Group Chat :- [@TR TECH GUIDE | SL Bots🇱🇰](https://t.me/trtechguide)
+
+## :)
+
+[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/DARKEMPIRESL)
+
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/DARKEMPIRESL)
