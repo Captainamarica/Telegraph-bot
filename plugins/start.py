@@ -16,7 +16,7 @@ If you need any help send /help for more....😌😌
         
 Made By @ImDark_Empire
 
-You Can Clone me too :- [Click Here](https://github.com/DARKEMPIRESL/Anonymous-Bot)
+You Can Clone me too :- [Click Here](https://github.com/DARKEMPIRESL)
 Visit and give a **star**😁😁
 Please Subscribe Our [Chanel](https://t.me/SLBotOfficial) 😎🔰
 """
