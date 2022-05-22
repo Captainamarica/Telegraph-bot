@@ -1,5 +1,0 @@
-telegraph
-pyrogram
-python-dotenv
-redis
-TGcrypto
